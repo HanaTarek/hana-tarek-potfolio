@@ -1,0 +1,34 @@
+/* ── Footer ── */
+.footer {
+  padding: 2rem 6vw;
+  border-top: 1px solid #f0f0f5;
+  background: #fbfaff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Inter', sans-serif;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+
+.footer__logo {
+  font-size: 1rem;
+  font-weight: 800;
+  letter-spacing: 0.02em;
+  color: #e8006e;
+}
+
+.footer__text {
+  font-size: 0.8rem;
+  color: #999;
+  letter-spacing: 0.02em;
+}
+
+/* ── Responsive ── */
+@media (max-width: 640px) {
+  .footer {
+    flex-direction: column;
+    text-align: center;
+    padding: 2rem 1.2rem;
+  }
+}

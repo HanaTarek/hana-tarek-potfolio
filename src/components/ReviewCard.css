@@ -1,0 +1,55 @@
+.review-card {
+  background: rgba(15, 14, 30, 0.55);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 12px;
+  padding: 12px 16px;       /* was 20px 24px */
+  max-width: 200px;          /* was 260px */
+  box-shadow:
+    0 8px 32px rgba(0, 0, 0, 0.35),
+    inset 0 1px 0 rgba(255, 255, 255, 0.06);
+}
+
+.review-card__quote {
+  font-size: 1.1rem;         /* was 1.6rem */
+  color: #e8187a;
+  line-height: 1;
+  margin-bottom: 8px;        /* was 14px */
+  font-weight: 700;
+}
+
+.review-card__text {
+  font-size: 0.72rem;        /* was 0.92rem */
+  color: rgba(255, 255, 255, 0.92);
+  line-height: 1.6;
+  font-weight: 600;
+  margin-bottom: 10px;       /* was 16px */
+}
+
+.review-card__author {
+  display: flex;
+  align-items: center;
+  gap: 6px;                  /* was 8px */
+}
+
+.review-card__author::before {
+  content: '';
+  display: block;
+  width: 12px;               /* was 18px */
+  height: 2px;
+  background: #e8187a;
+  flex-shrink: 0;
+}
+
+.review-card__name {
+  font-size: 0.68rem;        /* was 0.78rem */
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.review-card__avatar,
+.review-card__stars,
+.review-card__role {
+  display: none;
+}
