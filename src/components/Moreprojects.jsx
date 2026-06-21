@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import "./MoreProjects.css";
+import "./Moreprojects.css";
 import ProjectCard from "./ProjectCard";
 import {reactExercises , figmaDesigns } from '../data.js';
 
