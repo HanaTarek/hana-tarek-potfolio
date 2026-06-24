@@ -38,7 +38,7 @@ export default function Screen(){
         <div className="hero__mockup-label">
         <span className="hero__mockup-label-text">✦ Featured Project</span>
         <a
-        href="https://listentothierminds.netlify.app"
+        href="https://adhd-website-rouge.vercel.app/"
         target="_blank"
         rel="noreferrer"
         className="hero__mockup-live-btn"
@@ -53,7 +53,7 @@ export default function Screen(){
               <span className="hero__browser-dot hero__browser-dot--red" />
               <span className="hero__browser-dot hero__browser-dot--yellow" />
               <span className="hero__browser-dot hero__browser-dot--green" />
-              <span className="hero__browser-url">listentothierminds.netlify.app</span>
+              <span className="hero__browser-url">https://adhd-website-rouge.vercel.app/</span>
             </div>
 
             {/* Simulated page inside screen */}

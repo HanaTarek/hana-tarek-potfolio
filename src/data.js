@@ -21,7 +21,7 @@ export const projects = [
     title: "ADHD Awareness Website — Freelance",
     desc: "Designed the full UI/UX in Figma then built it with React. Features an interactive ADHD screening quiz, Supabase for result storage, and automated weekly email reports via Resend.",
     meta: "Feb 2026 — Apr 2026",
-    live: "https://listentothierminds.netlify.app/",
+    live: "https://adhd-website-rouge.vercel.app/",
     github: "https://github.com/HanaTarek/adhd-website",
   },
   {
